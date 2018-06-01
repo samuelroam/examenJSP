@@ -11,6 +11,51 @@
 <!-- Publicamos nuestro servlet aqui -->
 
 	<servlet>
+        <servlet-name>AlmacenarReserva</servlet-name>
+        <servlet-class>servlets.AlmacenarReserva</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlmacenarReserva</servlet-name>
+        <url-pattern>/AlmacenarReserva</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CancelarReserva</servlet-name>
+        <servlet-class>servlets.CancelarReserva</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CancelarReserva</servlet-name>
+        <url-pattern>/CancelarReserva</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>CrearReserva</servlet-name>
+        <servlet-class>servlets.CrearReserva</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CrearReserva</servlet-name>
+        <url-pattern>/CrearReserva</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GuardarReservaEnCarrito</servlet-name>
+        <servlet-class>servlets.GuardarReservaEnCarrito</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GuardarReservaEnCarrito</servlet-name>
+        <url-pattern>/GuardarReservaEnCarrito</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Inicio</servlet-name>
+        <servlet-class>servlets.Inicio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Inicio</servlet-name>
+        <url-pattern>/Inicio</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
         <servlet-name>ParaQueFuncione</servlet-name>
         <servlet-class>servlets.ParaQueFuncione</servlet-class>
     </servlet>
@@ -18,6 +63,8 @@
         <servlet-name>ParaQueFuncione</servlet-name>
         <url-pattern>/ParaQueFuncione</url-pattern>
     </servlet-mapping>
+    
+    
     
     <!-- Fin de la publicacion de servlets -->
 
